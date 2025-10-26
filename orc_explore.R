@@ -141,7 +141,7 @@ df_v <-df_iv %>%
 p <-ggplot(df_v,aes(month,day,fill=q_50))+
   geom_tile(color= "lightblue",size=0.1) + 
   scale_fill_viridis(name="Median Flows, m3/sec",option ="D") +
-  ggtitle("Median Flows, Hommerich, Jan 2025 - Aug 2025") +
+  ggtitle("Median Flows, Hommerich, Jan 2025 - Oct 2025") +
   xlab("Month") +
   ylab("Day")
 
@@ -285,3 +285,4 @@ m3/sec",option ="H", na.value = "gray95") +
 ######   save script (cntl + s)
 
 q()
+
